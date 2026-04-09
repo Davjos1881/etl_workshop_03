@@ -22,3 +22,6 @@ engine = get_mysql_engine(
 
 df_grammys = extract_grammys_db(engine)
 print(df_grammys.head())
+
+print(df_grammys.columns.tolist())
+print(df_grammys.head(3))

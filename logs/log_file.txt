@@ -1,0 +1,65 @@
+[2026-04-08 19:30:33] ETL process started
+[2026-04-08 19:30:33] Extract: Spotify CSV
+[2026-04-08 19:30:34] Extract: Grammys DB
+[2026-04-08 19:30:34] Clean: Spotify
+[2026-04-08 19:30:35] Spotify clean data saved
+[2026-04-08 19:30:35] Clean: Grammys
+[2026-04-08 19:36:10] ETL process started
+[2026-04-08 19:36:10] Extract: Spotify CSV
+[2026-04-08 19:36:11] Extract: Grammys DB
+[2026-04-08 19:36:11] Clean: Spotify
+[2026-04-08 19:36:12] Spotify clean data saved
+[2026-04-08 19:36:12] Clean: Grammys
+[2026-04-08 19:59:54] ETL process started
+[2026-04-08 19:59:54] Extract: Spotify CSV
+[2026-04-08 19:59:54] Extract: Grammys DB
+[2026-04-08 20:02:08] ETL process started
+[2026-04-08 20:02:08] Extract: Spotify CSV
+[2026-04-08 20:02:09] Extract: Grammys DB
+[2026-04-08 20:02:09] Clean: Spotify
+[2026-04-08 20:02:10] Spotify clean data saved
+[2026-04-08 20:02:10] Clean: Grammys
+[2026-04-08 20:02:10] Grammys clean data saved
+[2026-04-08 20:02:10] Transform and merge
+[2026-04-08 20:03:40] ETL process started
+[2026-04-08 20:03:40] Extract: Spotify CSV
+[2026-04-08 20:03:40] Extract: Grammys DB
+[2026-04-08 20:03:40] Clean: Spotify
+[2026-04-08 20:03:42] Spotify clean data saved
+[2026-04-08 20:03:42] Clean: Grammys
+[2026-04-08 20:03:42] Grammys clean data saved
+[2026-04-08 20:03:42] Transform and merge
+[2026-04-08 20:03:45] Transform and merge saved
+[2026-04-08 20:03:45] Load: Data Warehouse
+[2026-04-08 20:07:06] ETL process started
+[2026-04-08 20:07:06] Extract: Spotify CSV
+[2026-04-08 20:07:07] Extract: Grammys DB
+[2026-04-08 20:07:07] Clean: Spotify
+[2026-04-08 20:07:08] Spotify clean data saved
+[2026-04-08 20:07:08] Clean: Grammys
+[2026-04-08 20:07:08] Grammys clean data saved
+[2026-04-08 20:07:08] Transform and merge
+[2026-04-08 20:07:13] Transform and merge saved
+[2026-04-08 20:07:13] Load: Data Warehouse
+[2026-04-08 20:09:31] ETL process started
+[2026-04-08 20:09:31] Extract: Spotify CSV
+[2026-04-08 20:09:31] Extract: Grammys DB
+[2026-04-08 20:09:32] Clean: Spotify
+[2026-04-08 20:09:33] Spotify clean data saved
+[2026-04-08 20:09:33] Clean: Grammys
+[2026-04-08 20:09:33] Grammys clean data saved
+[2026-04-08 20:09:33] Transform and merge
+[2026-04-08 20:09:37] Transform and merge saved
+[2026-04-08 20:09:37] Load: Data Warehouse
+[2026-04-08 20:11:30] ETL process started
+[2026-04-08 20:11:30] Extract: Spotify CSV
+[2026-04-08 20:11:30] Extract: Grammys DB
+[2026-04-08 20:11:30] Clean: Spotify
+[2026-04-08 20:11:33] Spotify clean data saved
+[2026-04-08 20:11:33] Clean: Grammys
+[2026-04-08 20:11:33] Grammys clean data saved
+[2026-04-08 20:11:33] Transform and merge
+[2026-04-08 20:11:38] Transform and merge saved
+[2026-04-08 20:11:38] Load: Data Warehouse
+[2026-04-08 20:11:53] Load: Data Warehouse completed
+[2026-04-08 20:11:53] ETL process finished successfully
