@@ -1,0 +1,11 @@
+{"timestamp":"2026-04-09T23:18:41.748343Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 109. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-09T23:18:47.639235Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-09T23:18:47.651672Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_etl.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-09T23:18:47.880341Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/pipeline_etl.py","lineno":1,"logger":"py.warnings"}
+{"timestamp":"2026-04-09T23:18:47.881066Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/pipeline_etl.py","lineno":1,"logger":"py.warnings"}
+{"timestamp":"2026-04-09T23:18:48.233368Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-09T23:18:48.246097Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-09T23:18:48.246459Z","level":"info","event":"Current task name:extract_spotify","logger":"task.stdout"}
+{"timestamp":"2026-04-09T23:18:48.246676Z","level":"info","event":"Dag name:etl_spotify_grammys","logger":"task.stdout"}
+{"timestamp":"2026-04-09T23:18:51.679481Z","level":"info","event":"[extract_spotify] Rows loaded: 114000","logger":"task.stdout"}
+{"timestamp":"2026-04-09T23:20:45.783081Z","level":"critical","event":"Process terminated by signal. Likely out of memory error (OOM). For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#process-terminated-by-signal.","signal":-9,"signal_name":"SIGKILL","logger":"task"}

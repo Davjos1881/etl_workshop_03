@@ -63,3 +63,51 @@
 [2026-04-08 20:11:38] Load: Data Warehouse
 [2026-04-08 20:11:53] Load: Data Warehouse completed
 [2026-04-08 20:11:53] ETL process finished successfully
+[2026-04-09 16:34:29] ETL process started
+[2026-04-09 16:34:29] Extract: Spotify CSV
+[2026-04-09 16:34:30] Extract: Grammys DB
+[2026-04-09 16:34:30] Clean: Spotify
+[2026-04-09 16:34:31] Spotify clean data saved
+[2026-04-09 16:34:31] Clean: Grammys
+[2026-04-09 16:34:31] Grammys clean data saved
+[2026-04-09 16:34:31] Transform and merge
+[2026-04-09 16:34:35] Transform and merge saved
+[2026-04-09 16:34:35] Load: Data Warehouse
+[2026-04-09 16:34:40] Load: Data Warehouse completed
+[2026-04-09 16:34:40] Load: Google Drive
+[2026-04-09 16:35:28] ETL process started
+[2026-04-09 16:35:28] Extract: Spotify CSV
+[2026-04-09 16:35:29] Extract: Grammys DB
+[2026-04-09 16:35:29] Clean: Spotify
+[2026-04-09 16:35:30] Spotify clean data saved
+[2026-04-09 16:35:30] Clean: Grammys
+[2026-04-09 16:35:30] Grammys clean data saved
+[2026-04-09 16:35:30] Transform and merge
+[2026-04-09 16:35:34] Transform and merge saved
+[2026-04-09 16:35:34] Load: Data Warehouse
+[2026-04-09 16:35:39] Load: Data Warehouse completed
+[2026-04-09 16:35:39] Load: Google Drive
+[2026-04-09 16:36:07] ETL process started
+[2026-04-09 16:36:07] Extract: Spotify CSV
+[2026-04-09 16:36:07] Extract: Grammys DB
+[2026-04-09 16:36:07] Clean: Spotify
+[2026-04-09 16:36:09] Spotify clean data saved
+[2026-04-09 16:36:09] Clean: Grammys
+[2026-04-09 16:36:09] Grammys clean data saved
+[2026-04-09 16:36:09] Transform and merge
+[2026-04-09 16:36:12] Transform and merge saved
+[2026-04-09 16:36:12] Load: Data Warehouse
+[2026-04-09 16:36:17] Load: Data Warehouse completed
+[2026-04-09 16:36:17] Load: Google Drive
+[2026-04-09 16:36:28] ETL process started
+[2026-04-09 16:36:28] Extract: Spotify CSV
+[2026-04-09 16:36:28] Extract: Grammys DB
+[2026-04-09 16:36:29] Clean: Spotify
+[2026-04-09 16:36:30] Spotify clean data saved
+[2026-04-09 16:36:30] Clean: Grammys
+[2026-04-09 16:36:30] Grammys clean data saved
+[2026-04-09 16:36:30] Transform and merge
+[2026-04-09 16:36:34] Transform and merge saved
+[2026-04-09 16:36:34] Load: Data Warehouse
+[2026-04-09 16:36:37] Load: Data Warehouse completed
+[2026-04-09 16:36:37] Load: Google Drive

@@ -8,7 +8,6 @@ from clean_sp import clean_spotify
 from clean_gr import clean_grammys
 from transform import transform_data
 from load import load_to_dw
-#from load_drive import load_to_drive
 
 base_path = Path(r"C:\Users\santa\Desktop\ETL_cositas\workshop_02")
 
@@ -62,10 +61,6 @@ def main():
     log_progress("Load: Data Warehouse", log_file)
     load_to_dw(dim_model)
     log_progress("Load: Data Warehouse completed", log_file)
-
-    #log_progress("Load: Google Drive", log_file)
-    #load_to_drive(merged_file)
-    #log_progress("Load: Google Drive completed", log_file)
 
     log_progress("ETL process finished successfully", log_file)
 

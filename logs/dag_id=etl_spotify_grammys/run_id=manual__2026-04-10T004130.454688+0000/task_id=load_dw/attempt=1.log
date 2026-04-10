@@ -1,0 +1,14 @@
+{"timestamp":"2026-04-10T00:41:58.764966Z","level":"info","event":"Stats instance was created in PID 8 but accessed in PID 133. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-10T00:41:59.684359Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-10T00:41:59.686349Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_etl.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-10T00:41:59.771466Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/pipeline_etl.py","lineno":1,"logger":"py.warnings"}
+{"timestamp":"2026-04-10T00:41:59.771713Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/pipeline_etl.py","lineno":1,"logger":"py.warnings"}
+{"timestamp":"2026-04-10T00:42:00.166619Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:42:00.175724Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:42:00.189312Z","level":"info","event":"Current task name:load_dw","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:42:00.190897Z","level":"info","event":"Dag name:etl_spotify_grammys","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:42:36.606894Z","level":"info","event":"[load_dw] Load to Data Warehouse completed successfully","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:42:36.627094Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-10T00:42:36.684113Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:42:36.684560Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:42:36.684972Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load_dw>","logger":"task.stdout"}

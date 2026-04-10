@@ -1,0 +1,9 @@
+{"timestamp":"2026-04-10T00:27:37.460224Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 441. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-10T00:27:40.124214Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-10T00:27:40.130485Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_etl.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-10T00:27:40.234326Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/pipeline_etl.py","lineno":1,"logger":"py.warnings"}
+{"timestamp":"2026-04-10T00:27:40.237784Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/pipeline_etl.py","lineno":1,"logger":"py.warnings"}
+{"timestamp":"2026-04-10T00:27:40.356682Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:27:40.359900Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:27:40.362030Z","level":"info","event":"Current task name:transform","logger":"task.stdout"}
+{"timestamp":"2026-04-10T00:27:40.362703Z","level":"info","event":"Dag name:etl_spotify_grammys","logger":"task.stdout"}

@@ -1,0 +1,1 @@
+{"timestamp":"2026-04-09T23:10:10.516449Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 138. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
