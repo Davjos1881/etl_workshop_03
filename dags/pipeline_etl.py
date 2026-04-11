@@ -30,7 +30,7 @@ def pipeline_etl_spotify_grammys():
     def extract_grammys() -> str:
         from sqlalchemy import create_engine, text
         engine = create_engine(
-            "mysql+pymysql://root:@10.37.125.55:3306/grammys_db"
+            "mysql+pymysql://root:@192.168.1.5:3306/grammys_db"
         )
         df = pd.read_sql(text("SELECT * FROM grammys;"), con=engine.connect())
         print(f"[extract_grammys] Rows loaded: {len(df)}")
@@ -143,7 +143,7 @@ def pipeline_etl_spotify_grammys():
         df_merged = pd.read_csv(path)
 
         engine = create_engine(
-            "mysql+pymysql://root:@10.37.125.55:3306/spotify_grammys_dw"
+            "mysql+pymysql://root:@192.168.1.5:3306/spotify_grammys_dw"
         )
 
         # ── dim_artist ────────────────────────────────────────
